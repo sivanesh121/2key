@@ -1,0 +1,20 @@
+Hi Team,
+
+when i was testing your website i found the many subdomain
+
+i was intreasted in community.2key.io/
+
+I check all the possible ways in all test, there i saw there is a option to product the account using Google authenticator app
+
+so i try to make bypass of 2FA
+
+steps to reproduce:
+
+• Go to https://community.2key.io/ and make login.
+• Next, it will ask for the 2FA code in google Authenticator (enabled 2FA).
+• By seeing the code enter the value, after entering the value make intercept the data and do response to this request.
+• See the create response and copy it.
+• Now logout the account, and try to get login with fake authentication code.
+• Now make intercept and response to this request , there will be unauthendicated.
+• Delete the response of UNAUTHORIZED and place the response of authorized,Forward it.
+• 2FA bypassed.
